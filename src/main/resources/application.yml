@@ -1,0 +1,10 @@
+server:
+  port: 5006
+  address: 127.0.0.1
+  sessionTimeout: 300
+  context-Path: /aaa
+logging:
+  level:
+    root: info
+    com.mrx: debug
+    com.alibaba.nacos.client.naming: error
